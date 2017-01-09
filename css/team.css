@@ -1,0 +1,113 @@
+
+body{
+    background:#eee;
+}
+#team {
+    margin-top:40px;
+}
+
+.block {
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.07);
+}
+
+#team .team-portrait {
+    text-align: center;
+}
+
+#team .title {
+    padding: 30px 0;
+}
+
+#team .title h2 {
+    margin: 0;
+    padding: 0 10px;
+    line-height: 36px;
+    color: #3e4258;
+}
+
+#team .title h3 {
+    color: #9295a7;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#team .btn {
+    margin: 5px 10px 0 0;
+}
+
+#team p {
+    padding: 0 30px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.portrait {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: border-color .5s;
+    transition: border-color .5s;
+}
+
+.team .row [class*="col-"]:hover .portrait {
+    border-color: #fff;
+}
+
+.portrait img {
+    width: 100%;
+}
+
+.social-media {
+    padding: 0 30px;
+    color: #fff;
+    width: 100%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.social-media a {
+    display: inline-block;
+    font-size: 20px;
+    color: #3e4258;
+}
+
+.social-media a i {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.social-media a:hover i {
+    color: #444;
+}
+@media (max-width: 992px)  {
+    .portrait {
+        height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px)  {
+    .team .social-media a {
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        padding-top: 3px;
+    }
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}

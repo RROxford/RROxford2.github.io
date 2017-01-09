@@ -1,2 +1,3 @@
 # RROxford.github.io
-Main site for Reproducible Research Oxford.
+
+Main site for the Reproducible Research Oxford project.
